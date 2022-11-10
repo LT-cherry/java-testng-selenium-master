@@ -39,7 +39,6 @@
 						<suiteXmlFile>parallel.xml</suiteXmlFile>
 						<suiteXmlFile>mobile.xml</suiteXmlFile>
 						<suiteXmlFile>single.xml</suiteXmlFile>
-						<suiteXmlFile>{suiteFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
