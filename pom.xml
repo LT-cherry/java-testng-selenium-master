@@ -36,6 +36,7 @@
 				</executions>
 				<configuration>
 					<suiteXmlFiles>
+						<suiteXmlFile>parallel.xml</suiteXmlFile>
 						<suiteXmlFile>single.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
