@@ -11,5 +11,5 @@ steps:
   entrypoint: 'mvn'
   args: ['test', '-P', 'local']
   env:
-  - 'LT_USERNAME=$ cherryr'
-  - 'LT_ACCESS_KEY=$ 0b6Kgl92TnFNfjAFDLSdFgoOPclim02JkCXJZQA6uqg35uccr4'
+  - 'LT_USERNAME=${_LT_USERNAME}'
+  - 'LT_ACCESS_KEY=${_LT_ACCESS_KEY}'
